@@ -5,6 +5,62 @@
 }
 
 body { 
-    background-image: url(https://i.pinimg.com/564x/ec/99/1a/ec991aeae6b031baa72e5d7ec8ee95cb.jpg);
+    background-image: 
 }
 
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu {
+    background-color: rgb(237, 172, 216);
+    height: 50px;
+    box-shadow: 10px 5px 0px rgba(234, 209, 227, 0.75);
+}
+
+.first-container {
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    margin-left: 990px;
+}
+
+
+.first-ul{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 100%;
+}
+
+.item {
+    background-image: url(https://i.pinimg.com/736x/2b/22/0f/2b220f581b8931f68ec3ca56c75ca882.jpg);
+    border-radius: 10px;
+}
+.first-ul li {
+    padding: 0 15px;
+}
+.first-ul {
+    list-style-type: none;
+}
+
+.section-about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto; 
+    height: 400px;
+    text-align: center;
+}
+
+.image-about-me { 
+    width: 150px;
+    height: 300px;
+    display: flex;
+    margin: 50px;
+}
+
+
+    
