@@ -1,6 +1,8 @@
 @font-face {
     font-family: odachi;
     src: url(font-family/Odachi.woff);
+    font-family: japab;
+    src: url(font-family/japab.woff);
 }
 
 * { 
@@ -93,7 +95,7 @@ body {
 }
 
 .title-name {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: japab, sans-serif;
     letter-spacing: 1px;
     font-weight: lighter;
     text-align: center;
