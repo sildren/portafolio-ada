@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 body { 
@@ -9,13 +11,21 @@ body {
 }
 
 .header {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    position: relative;
+
 }
 
 .nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: rgb(237, 172, 216);
-    height: 50px;
+    width: 100%;
+    height: 70px;
     box-shadow: 10px 5px 0px rgba(234, 209, 227, 0.75);
 }
 
@@ -36,9 +46,15 @@ body {
 }
 
 .item {
+    
     background-image: url(https://i.pinimg.com/736x/2b/22/0f/2b220f581b8931f68ec3ca56c75ca882.jpg);
-    border-radius: 10px;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: https://resize.cdn.otakumode.com/ex/1200.1200/shop/product/1c43133ffc654266a5c1a1b84e4c815d.jpg;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 .first-ul li {
     padding: 0 15px;
 }
@@ -50,17 +66,42 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
     width: auto; 
     height: 400px;
     text-align: center;
+    background-image: url(https://preview.redd.it/what-are-these-called-these-anime-speed-motion-lines-is-v0-1fno3qauyv2b1.png?auto=webp&s=d140b133853bd43c399d9715390aa5220e8dbc94);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .image-about-me { 
-    width: 150px;
-    height: 300px;
     display: flex;
-    margin: 50px;
+    border: 2px inset #f353bc;
+    border-radius: 200px;
+    width: 120px;
+    height: 190px;
+    box-shadow: rgba(237,193,237,0.96);
 }
 
+.title-name {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-align: center;
+}
 
-    
+.description-about-me {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #f353bc;
+}
+
+.section-skills {
+    display: flex;
+}
