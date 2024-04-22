@@ -1,3 +1,8 @@
+@font-face {
+    font-family: odachi;
+    src: url(font-family/Odachi.woff);
+}
+
 * { 
     margin: 0;
     padding: 0;
@@ -50,9 +55,10 @@ body {
     background-image: url(https://i.pinimg.com/736x/2b/22/0f/2b220f581b8931f68ec3ca56c75ca882.jpg);
     border-radius: 40px;
     text-align: center;
+    font-family: odachi, sans-serif;
     text-decoration: none;
     text-shadow: https://resize.cdn.otakumode.com/ex/1200.1200/shop/product/1c43133ffc654266a5c1a1b84e4c815d.jpg;
-    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .first-ul li {
@@ -94,7 +100,7 @@ body {
 }
 
 .description-about-me {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: odachi, sans-serif;
     letter-spacing: 1px;
     font-weight: lighter;
     text-align: center;
