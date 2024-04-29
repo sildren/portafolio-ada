@@ -3,6 +3,8 @@
     src: url(font-family/Odachi.woff);
     font-family: japab;
     src: url(font-family/japab.woff);
+    font-family: yozakura;
+    src: url(font-family/YOZAKURA-Regular.otf);
 }
 
 * { 
@@ -130,13 +132,6 @@ body {
     padding-bottom: 30px; 
 }
 
-.section-skills {
-    background-image: ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .skills-title {
     font-family: japab, sans-serif;
     font-weight: bold;
@@ -147,42 +142,48 @@ body {
 
 .skills-content {
     font-family: odachi, sans-serif;
-    font-weight: lighter;
-    letter-spacing: 1px;
+    font-weight: bold;
+    letter-spacing: 2px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .skills-content-dont {
     font-family: odachi, sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     letter-spacing: 1px;
     text-align: center;
-    margin-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 2px;
+    padding-bottom: 5px;
 }
+
 .box-skills-container {
     width: 40%;
     display: flex;
     flex-direction: column wrap;
+    justify-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 50%;
+    padding-bottom: 50px;
+    
 }
 
 .box {
     background-color: lightgray;
     display: flex;
-    flex-direction: column;
+    flex-direction: column wrap;
     justify-content: center;
+    justify-items: center;
     align-items: center;
     width: 150px;
     height: 180px;
     border-radius: 20px;
-    margin: 0 25px 25px 25px;
+    margin: 0 30px 30px 30px;
     border: rgb(161,126,126) solid;
+    border-style: double;
     font-family: japab, sans-serif;
 }
  
@@ -228,10 +229,58 @@ body {
     justify-content: space-between;
     text-align: center;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 
+.project-title {
+    font-family: japab, sans-serif;
+    font-size: larger;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 30px;
+}
 
+.description-projects {
+    font-family: odachi, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.box-projects {
+    width: 50%;
+    display: flex;
+    flex-direction: column wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50%;
+}
 
+.boxie {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 10px 10px 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border: rgb(161,126,126) solid;  
+    border-style: double;    
+}
 
-
+.project {
+    font-family: yozakura, sans-serif;
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
