@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<a! --HEADER SECTION -->
+<!--HEADER SECTION -->
   <header class="header">
   <nav class="nav-menu"> 
     <div class="first-container">
@@ -23,7 +23,7 @@
 </header>
   
 
-<a! -- ABOUT ME SECTION -->
+<!-- ABOUT ME SECTION -->
  <section id="aboutme" class="section-about-me">
     <div>
         <h1 class="title-name"> Hi! I'm Sildren Marciales </h1>
@@ -34,7 +34,7 @@
      </div>
  </section>
 
- <a! -- SKILLS SECTION -->
+ <!-- SKILLS SECTION -->
  <section id="skills" class="section-skills">
     <div>
         <h2 class="skills-title"> My Skills </h2>
@@ -42,7 +42,7 @@
         <h1 class="skills-content-dont"> Do not give up! </h1>
     </div>
 
-<a! -- skills container -->
+<!-- skills container -->
 <div class="box-skills-container">
     <div class="box box-html">
         <a href="#html">  
@@ -83,7 +83,7 @@
 </div>
 </section>
 
-<i! -- QUOTE SECTION --> 
+<!-- QUOTE SECTION --> 
 
 <section class="section-quote">
     <i class="quote-icon"> <img src="photos/comillas.png" alt="quote" width="110px"> </i>
@@ -107,7 +107,7 @@
 
 </section>
 
-<a! -- PROJECTS SECTION -->
+<!-- PROJECTS SECTION -->
 
 <section class="section-projects" id="projects"> 
  <div>
@@ -154,53 +154,65 @@
 </div>
 </section>
 
-<a! -- CONTACT SECTION -->
+<!-- CONTACT SECTION -->
 
 <section id="contact" class="contact-section"> 
 <div class="container-contact">
-    <h1> Contact </h1> 
-    <p>Hi! I am Sildren Marciales, an ADA student. As you can see I am still learning this hole thing called 'Front-end Developer' and as the time passes by, I get more excited about it. If you want to tell me something, here you have my social medias. See you! </p>
-    <div> 
+    <h1 class="contact-title"> Contact </h1> 
+    <p class="contact-contend">Hi! I am Sildren Marciales, an ADA student. </p>
+    <p class="contact-contend"> As you can see I am still learning this hole thing called 'Front-end Developer.'</p>
+    <p class="contact-contend"> As the time passes by, I get more excited about it.</p>
+    <p class="contact-contend"> If you want to tell me something here you have my social medias.</p>
+    <p class="contact-contend"> See you!</p>
+    <div class="instagram-contact"> 
         <a href="https://www.instagram.com/silx18/">
-      <img src="photos/instagram.png" alt="instagram" width="50px">
+      <img src="photos/instagram.png" alt="instagram" width="40px">
+      <caption class="caption"> @silx18 </caption>
         </a>
     </div>
-    <div>
+    <div class="github-contact">
         <a href="https://github.com/sildren">
-            <img src="photos/githubsocial.png" alt="github" width="50px">
+            <img src="photos/githubsocial.png" alt="github" width="40px"> 
+            <caption class="caption"> sildren </caption>
         </a>
     </div>
-    <div>
+    <div class="linkedin-contact">
         <a href="https://www.linkedin.com/in/sildren-marciales-2b68962a5/">
-            <img src="photos/linkedin.png" alt="LinkeIn" width="50px">
+            <img src="photos/linkedin.png" alt="LinkeIn" width="40px">
+            <caption class="caption">SildrenMarciales</caption>
         </a>
     </div>
-    <div> 
+    <div class="gmail-contact"> 
         <a href="#gmail">
-            <img src="photos/gmail.png" alt="gmail" width="50px"> 
-            <caption> sildren9@gmail.com </caption>
+            <img src="photos/gmail.png" alt="gmail" width="40px"> 
+            <caption class="caption"> sildren9@gmail.com </caption>
         </a>
     </div>
 </div> 
-<form action="">
-    <legend> Talk to me </legend>
-<div>
+<form class="form" >
+    <legend class="legend-title" > Talk to me! </legend>
+
+<div class="first-form-container">
     <label for="Name">
        <span>Name:</span>
-        <input type="text" name="name" id="name" placeholder="Ex: Sildren">
+        <input class="first-input" type="text" name="name" id="name" placeholder="Ex: Sildren">
+        <strong> <abbr title="required"></abbr></strong>
     </label>
     <label for="lastname">
         <span> Lastname: </span>
         <input type="text" name="lastname" id="lastname" placeholder="Ex: Marciales">
+        <strong> <abbr title="required"></abbr></strong>
     </label>
 </div>
 <div class="div-email-message">
     <label for="email">
         <span>Email:</span>
+        <input class="" type="email" name="email" id="email" placeholder="Ex: sildren9@gmail.com">
         <strong> <abbr title="required"> </abbr></strong>
-        <input type="email" name="email" id="email" placeholder="Ex: sildren9@gmail.com">
     </label>
-    <label for="message">
+</div>
+<div>
+        <label for="message">
         <span> Message </span>
         <textarea name="message" id="mesagge" cols="30" rows="10" placeholder="Write a message here"></textarea>
     </label>

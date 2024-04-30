@@ -126,7 +126,6 @@ body {
     height: 850px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     text-align: center;
     flex-direction: column;
     padding-bottom: 30px; 
@@ -164,8 +163,9 @@ body {
 .box-skills-container {
     width: 40%;
     display: flex;
-    flex-direction: column wrap;
     justify-items: center;
+    justify-content: center;
+    flex-direction: column wrap;
     flex-wrap: wrap;
     padding-bottom: 50px;
     
@@ -284,3 +284,88 @@ body {
     font-weight: bold;
     letter-spacing: 1px;
 }
+
+/* CONTACT SECTION */ 
+
+.contact-section {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #c2c2c2; 
+    border-radius: 10px;
+    border-style: double;
+}
+
+.contact-title {
+    font-family: odachi, sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.contact-contend {
+    font-family: odachi, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: larger;
+    font-weight: lighter;
+    letter-spacing: 1px; 
+}
+
+.caption {
+    text-align: center;
+    margin: 10px 3px 30px 5px;
+}
+.instagram-contact {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.github-contact {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.linkedin-contact {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.gmail-contact {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/* FORM SECTION */
+
+.form { 
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.legend-title {
+    font-family: odachi, sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.first-form-container {
+    font-family: yozakura, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.first-input {
+    border-radius: 10px;
+    border-color: #c2c2c2;
+    border-style: dashed;
+}
+
+
+
