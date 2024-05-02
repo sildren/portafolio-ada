@@ -192,37 +192,38 @@
 <form class="form" >
     <legend class="legend-title" > Talk to me! </legend>
 
-<div class="first-form-container">
+<div class="formu form-first-container">
     <label for="Name">
-       <span>Name:</span>
-        <input class="first-input" type="text" name="name" id="name" placeholder="Ex: Sildren">
+       <span>Name *</span>
+        <input class="input" type="text" name="name" id="name" placeholder="Ex: Sildren">
         <strong> <abbr title="required"></abbr></strong>
     </label>
     <label for="lastname">
-        <span> Lastname: </span>
-        <input type="text" name="lastname" id="lastname" placeholder="Ex: Marciales">
+        <span> Lastname * </span>
+        <input class="input" type="text" name="lastname" id="lastname" placeholder="Ex: Marciales">
         <strong> <abbr title="required"></abbr></strong>
     </label>
 </div>
-<div class="div-email-message">
+<div class="formu form-second-container">
     <label for="email">
-        <span>Email:</span>
-        <input class="" type="email" name="email" id="email" placeholder="Ex: sildren9@gmail.com">
+        <span>Email *</span>
+        <input class="input" type="email" name="email" id="email" placeholder="Ex: sildren9@gmail.com">
         <strong> <abbr title="required"> </abbr></strong>
     </label>
 </div>
-<div>
+<div class="formu form-third-container">
+    <p> Message * </p>
         <label for="message">
-        <span> Message </span>
-        <textarea name="message" id="mesagge" cols="30" rows="10" placeholder="Write a message here"></textarea>
+        <textarea class="textarea" name="message" id="mesagge" cols="30" rows="10" placeholder="Write a message here"></textarea>
     </label>
-    <input type="submit" name="send" id="send" value="send">
+    <input class="submit-button" type="submit" name="send" id="send" value="Send">
 </form>
 </div>
 </section>
 
-<footer> 
-    <div>
+<!--FOOTER SECTION -->
+<footer class="container-footer"> 
+    <div class="last-container">
         <ul>
             <li> <a href="#aboutme"> HI! </a> </li>
             <li> <a href="#skills"> Skills </a></li>
