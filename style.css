@@ -1,8 +1,6 @@
 @font-face {
     font-family: odachi;
     src: url(font-family/Odachi.woff);
-    font-family: japab;
-    src: url(font-family/japab.woff);
     font-family: yozakura;
     src: url(font-family/YOZAKURA-Regular.otf);
 }
@@ -104,9 +102,10 @@ body {
 
 
 .title-name {
-    font-family: japab, sans-serif;
+    font-family: yozakura, sans-serif;
     letter-spacing: 1px;
-    font-weight: lighter;
+    font-weight: bolder;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -132,8 +131,9 @@ body {
 }
 
 .skills-title {
-    font-family: japab, sans-serif;
-    font-weight: bold;
+    font-family: yozakura, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
     letter-spacing: 1px;
     text-align: center;
     margin-top: 30px;
@@ -183,7 +183,7 @@ body {
     margin: 0 30px 30px 30px;
     border: rgb(161,126,126) solid;
     border-style: double;
-    font-family: japab, sans-serif;
+    font-family: yozakura, sans-serif;
 }
  
 /* QUOTE SECTION */ 
@@ -212,8 +212,8 @@ body {
 
 .quote-sign {
      margin-top: 50px;
-     font-family: japab, sans-serif;
-     font-size: larger;
+     font-family: yozakura, sans-serif;
+     font-size: 40px;
      font-weight: bolder;
 }
 
@@ -232,8 +232,8 @@ body {
 }
 
 .project-title {
-    font-family: japab, sans-serif;
-    font-size: larger;
+    font-family: yozakura, sans-serif;
+    font-size: 50px;
     letter-spacing: 2px;
     text-align: center;
     margin-top: 30px;
@@ -392,7 +392,7 @@ body {
 
 .footer {
     width: 100%;
-    height: 300px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -444,10 +444,6 @@ body {
 .second-list-footer li {
     padding: 0 15px;
     margin: 0 10px;
-}
-
-.second-footer-list {
-    
 }
 
 .goodbye {
