@@ -93,11 +93,12 @@ body {
 
 .image-about-me { 
     display: flex;
+    border-radius: 150px;
     border: 2px inset rgb(161,126,126);
-    border-radius: 15px;
-    width: 120px;
-    height: 190px;
+    width: 200px;
+    height: 250px;
     box-shadow: rgba(237,193,237,0.96);
+    margin-left: 25px;
 }
 
 
