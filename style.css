@@ -185,7 +185,16 @@ body {
     border-style: double;
     font-family: yozakura, sans-serif;
 }
- 
+
+.box {
+    transition-property: background;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+
+.box:hover { 
+    transform: scale(1.1);
+}
 /* QUOTE SECTION */ 
 
 .section-quote {
@@ -274,6 +283,16 @@ body {
     margin-bottom: 10px;
     border: rgb(161,126,126) solid;  
     border-style: double;    
+}
+
+.boxie {
+    transition-property: background;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+
+.boxie:hover { 
+    transform: scale(1.1)
 }
 
 .project {
@@ -444,6 +463,19 @@ body {
 .second-list-footer li {
     padding: 0 15px;
     margin: 0 10px;
+}
+
+.second {
+    border-radius: 15px;
+    background-color: lightgray;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+
+.second:hover { 
+    background-color: rgba(128,128,128,1);
 }
 
 .goodbye {
