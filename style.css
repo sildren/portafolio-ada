@@ -24,7 +24,6 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    position: fixed;
     margin-top: auto;
 }
 
@@ -486,4 +485,3 @@ body {
     font-size: larger;
     text-align: center;
 }
-
