@@ -229,26 +229,24 @@ body {
 
 /* PROJECTS SECTION */ 
 
-.section-projects {
-    max-width: 100%;
-    height: 700px;
+.projects-section {
+    width: 100%;
+    height: 950px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     text-align: center;
     flex-direction: column;
-    padding-bottom: 30px;
 }
 
 .project-title {
     font-family: yozakura, sans-serif;
     font-size: 50px;
-    letter-spacing: 2px;
     text-align: center;
     margin-top: 30px;
 }
 
-.description-projects {
+.projects-content {
+
     font-family: odachi, sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
@@ -260,48 +258,53 @@ body {
     padding-bottom: 10px;
 }
 
-.box-projects {
+.container-projects {
     width: 50%;
     display: flex;
     flex-direction: column wrap;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 50%;
+    padding-bottom: 50%; 
 }
 
-.boxie {
-    background-color: lightgray;
+.container {
+    background-color:white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 180px;
-    height: 200px;
+    width: 200px;
+    height: 210px;
     border-radius: 10px;
-    margin: 0 10px 10px 10px;
     margin-top: 25px;
     margin-bottom: 10px;
-    border: rgb(161,126,126) solid;  
-    border-style: double;    
-}
 
-.boxie {
+ }
+
+.container img {
+    width: 100%;
+
+
+}
+.container {
     transition-property: background;
     transition-duration: 2s;
     transition-timing-function: ease;
 }
 
-.boxie:hover { 
+.container:hover { 
     transform: scale(1.1)
 }
 
 .project {
     font-family: yozakura, sans-serif;
     margin-top: 10px;
+    text-align: center;
     font-size: larger;
     font-weight: bold;
     letter-spacing: 1px;
 }
+
 
 /* CONTACT SECTION */ 
 
@@ -417,7 +420,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: lightgray;   
+    background-color: lightgray;
 }
 
 .first-container-footer {
