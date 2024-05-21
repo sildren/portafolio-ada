@@ -82,7 +82,6 @@ body {
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 600px;
     text-align: center;
     background-image: url(https://preview.redd.it/what-are-these-called-these-anime-speed-motion-lines-is-v0-1fno3qauyv2b1.png?auto=webp&s=d140b133853bd43c399d9715390aa5220e8dbc94);
     background-repeat: no-repeat;
@@ -95,7 +94,7 @@ body {
     border-radius: 150px;
     border: 2px inset rgb(161,126,126);
     width: 200px;
-    height: 250px;
+    height: 200px;
     box-shadow: rgba(237,193,237,0.96);
     margin-left: 25px;
 }
@@ -121,13 +120,11 @@ body {
 /* SKILLS SECTION */ 
 
 .section-skills {
-    max-width: 100%;
-    height: 850px;
+    min-width: 100vh;
     display: flex;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding-bottom: 30px; 
 }
 
 .skills-title {
@@ -161,7 +158,6 @@ body {
 }
 
 .box-skills-container {
-    width: 40%;
     display: flex;
     justify-items: center;
     justify-content: center;
@@ -199,12 +195,11 @@ body {
 
 .section-quote {
     max-width: 100%;
-    height: 600px;
+    min-height: 100vh;
     background-color: #c2c2c2;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .quote-icon {
@@ -230,8 +225,7 @@ body {
 /* PROJECTS SECTION */ 
 
 .projects-section {
-    width: 100%;
-    height: 950px;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -309,8 +303,7 @@ body {
 /* CONTACT SECTION */ 
 
 .contact-section {
-    width: 100%;
-    height: 550px;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -341,23 +334,12 @@ body {
     text-align: center;
     margin: 10px 3px 30px 5px;
 }
-.instagram-contact {
-    margin-top: 25px;
-    margin-left: 10px;
-}
 
-.github-contact {
-    margin-top: 15px;
-    margin-left: 10px;
-}
-
+.instagram-contact
+.gmail-contact
+.github-contact 
 .linkedin-contact {
-    margin-top: 15px;
-    margin-left: 10px;
-}
-
-.gmail-contact {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 10px;
 }
 
@@ -393,8 +375,6 @@ body {
 
 .textarea {
     margin-top: 15px;
-    width: 500px;
-    height: 200px;
     border-radius: 10px;
     border-color: #c2c2c2;
     border-style: dashed;
@@ -432,13 +412,8 @@ body {
 .first-list-footer {
     padding: 25px;
     display: flex;
-    justify-content: space-around;
-    list-style: none;
-    height: 100%;
-}
-.first-list-footer li {
-    padding: 0 15px;
-    margin: 0 30px;
+    flex-direction: row; 
+    gap: 25px;
 }
 
 .first-footer-list {
@@ -450,9 +425,8 @@ body {
 
 .second-container-footer {
     display: flex;
-    flex-direction: ;
+    flex-direction: row;
     justify-content: center;
-    padding: 2px;
 }
 
 .second-list-footer {
@@ -460,7 +434,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    list-style: none;
 }
 
 .second-list-footer li {
@@ -487,4 +460,16 @@ body {
     font-weight: bolder;
     font-size: larger;
     text-align: center;
+}
+ 
+@media screen and (max width: 800px) {
+
+.form { 
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 0 10px;
+    margin: 0 auto; 
+}
+
 }
