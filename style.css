@@ -42,7 +42,6 @@ body {
     display: flex;
     justify-content: center;
     padding: 1px;
-    margin-left: 990px;
 }
 
 
@@ -77,6 +76,7 @@ body {
 /* ABOUT ME SECTION */ 
 
 .section-about-me {
+    min-height: calc(100vh - 70px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,7 +96,6 @@ body {
     width: 200px;
     height: 200px;
     box-shadow: rgba(237,193,237,0.96);
-    margin-left: 25px;
 }
 
 
@@ -120,7 +119,6 @@ body {
 /* SKILLS SECTION */ 
 
 .section-skills {
-    min-width: 100vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -133,7 +131,7 @@ body {
     font-size: 50px;
     letter-spacing: 1px;
     text-align: center;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .skills-content {
@@ -141,10 +139,6 @@ body {
     font-weight: bold;
     letter-spacing: 2px;
     text-align: center;
-    margin-top: 20px;
-    margin-right: 80px;
-    margin-left: 80px;
-    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -158,21 +152,21 @@ body {
 }
 
 .box-skills-container {
+    min-height: calc(100vh - 70px);
     display: flex;
-    justify-items: center;
-    justify-content: center;
-    flex-direction: column wrap;
     flex-wrap: wrap;
-    padding-bottom: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .box {
-    background-color: lightgray;
     display: flex;
-    flex-direction: column wrap;
+    flex-direction: column;
     justify-content: center;
-    justify-items: center;
     align-items: center;
+    background-color: lightgray;
     width: 150px;
     height: 180px;
     border-radius: 20px;
@@ -199,6 +193,7 @@ body {
     background-color: #c2c2c2;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -246,19 +241,16 @@ body {
     letter-spacing: 1px;
     text-align: center;
     margin-top: 20px;
-    margin-right: 150px;
-    margin-left: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .container-projects {
-    width: 50%;
     display: flex;
-    flex-direction: column wrap;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 50%; 
+    justify-content: center;
+    max-width: 750px;
+    gap: 20px;
 }
 
 .container {
@@ -270,8 +262,6 @@ body {
     width: 200px;
     height: 210px;
     border-radius: 10px;
-    margin-top: 25px;
-    margin-bottom: 10px;
 
  }
 
@@ -303,7 +293,7 @@ body {
 /* CONTACT SECTION */ 
 
 .contact-section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -346,7 +336,6 @@ body {
 /* FORM SECTION */
 
 .form { 
-    margin-left: 300px;
     display: flex;
     flex-direction: column;
 }
@@ -355,11 +344,9 @@ body {
     font-family: odachi, sans-serif;
     font-size: 60px;
     font-weight: lighter;
-    margin-top: 20px;
 }
 
 .formu {
-    margin-top: 15px;
     font-family: yozakura, sans-serif;
     font-weight: bold;
     font-size: 30px;
@@ -374,7 +361,6 @@ body {
 
 
 .textarea {
-    margin-top: 15px;
     border-radius: 10px;
     border-color: #c2c2c2;
     border-style: dashed;
@@ -461,15 +447,26 @@ body {
     font-size: larger;
     text-align: center;
 }
- 
-@media screen and (max width: 800px) {
 
-.form { 
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-    padding: 0 10px;
-    margin: 0 auto; 
+/* MEDIA QUERYS */ 
+
+@media  screen and (max-width: 700px) {
+    .section-about-me {
+        flex-direction: column;
+    }
 }
 
+@media screen and (max-width: 800px) {
+    .form {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+
+    .contact-section {
+        flex-direction: column;
+    }
 }
+
