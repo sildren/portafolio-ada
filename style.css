@@ -118,11 +118,45 @@ body {
 
 /* SKILLS SECTION */ 
 
-.section-skills {
+.section-skills { 
     display: flex;
-    align-items: center;
-    text-align: center;
     flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.box-skills-container {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    gap: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    margin: 0 30px 30px 30px;
+    border: rgb(161,126,126) solid;
+    border-style: double;
+    font-family: yozakura, sans-serif;
+}
+
+.box {
+    transition-property: background;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+
+.box:hover { 
+    transform: scale(1.1);
 }
 
 .skills-title {
@@ -151,40 +185,6 @@ body {
     padding-bottom: 5px;
 }
 
-.box-skills-container {
-    min-height: calc(100vh - 70px);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgray;
-    width: 150px;
-    height: 180px;
-    border-radius: 20px;
-    margin: 0 30px 30px 30px;
-    border: rgb(161,126,126) solid;
-    border-style: double;
-    font-family: yozakura, sans-serif;
-}
-
-.box {
-    transition-property: background;
-    transition-duration: 2s;
-    transition-timing-function: ease;
-}
-
-.box:hover { 
-    transform: scale(1.1);
-}
 /* QUOTE SECTION */ 
 
 .section-quote {
@@ -338,6 +338,8 @@ body {
 .form { 
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .legend-title {
@@ -357,8 +359,6 @@ body {
     border-color: #c2c2c2;
     border-style: dashed;
 }
-
-
 
 .textarea {
     border-radius: 10px;
