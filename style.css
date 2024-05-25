@@ -126,12 +126,14 @@ body {
 }
 
 .box-skills-container {
-    min-height: calc(100vh - 70px);
+    min-height: 60vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    justify-items: center;
-    gap: 20px;
+    text-align: center;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .box {
@@ -149,6 +151,9 @@ body {
     font-family: yozakura, sans-serif;
 }
 
+.box img {
+    width: 100%;
+}
 .box {
     transition-property: background;
     transition-duration: 2s;
@@ -320,10 +325,15 @@ body {
     letter-spacing: 1px; 
 }
 
+.contact img {
+    width: 40px;
+}
+
 .caption {
     text-align: center;
     margin: 10px 3px 30px 5px;
 }
+
 
 .instagram-contact
 .gmail-contact
@@ -447,6 +457,9 @@ body {
     font-size: larger;
     text-align: center;
 }
+
+/* HAMB MENU */ 
+
 
 /* MEDIA QUERYS */ 
 
