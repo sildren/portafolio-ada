@@ -38,6 +38,7 @@ body {
     box-shadow: 10px 10px 5px 0px rgba(128,128,128,1);
 }
 
+
 .first-container {
     display: flex;
     justify-content: center;
@@ -460,6 +461,51 @@ body {
 
 /* HAMB MENU */ 
 
+
+.first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.first-container .open {
+    display: block;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    height: 40px;
+    width: 40px;
+    background-image: url(photos/ham-close.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.first-container .close {
+    display: none;
+    height: 40px;
+    width: 40px;
+    background-image: url(photos/hamb-menu.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.close {
+    display: none;
+}
+
+#menu:target .first-ul {
+    display: none;
+}
+
+#menu:target .open {
+    display: none;
+}
+
+#menu:target .close {
+    display: block;
+}
 
 /* MEDIA QUERYS */ 
 
