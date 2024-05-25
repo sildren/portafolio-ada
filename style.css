@@ -35,13 +35,10 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #ffffff; 
     width: 100%;
     height: 70px;
-    background-color: #ededed;
     box-shadow: 10px 10px 5px 0px rgba(128,128,128,1);
 }
-
 
 .first-container {
     display: flex;
@@ -50,32 +47,14 @@ body {
 }
 
 
-.first-ul{
-    padding: 25px;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    height: 100%;
-}
-
 .item {
-    background-image: url(photos/item-luffy.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
     text-align: center;
     font-family: odachi, sans-serif;
-    text-decoration: none;
-    font-size: larger;
 }
 
 .first-ul li {
     padding: 0 15px;
-    margin: 0 30px;
-}
-.first-ul {
-    list-style-type: none;
+    margin: 0 30px; 
 }
 
 /* ABOUT ME SECTION */ 
@@ -359,14 +338,14 @@ body {
 
 .legend-title {
     font-family: odachi, sans-serif;
-    font-size: 60px;
+    font-size: 5rem;
     font-weight: lighter;
 }
 
 .formu {
     font-family: yozakura, sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .input {
@@ -392,6 +371,8 @@ body {
     border-color: #c2c2c2;
     border-style: dashed;
 }
+
+/* FOOTER */ 
 
 .footer {
     width: 100%;
@@ -465,13 +446,6 @@ body {
 
 /* HAMB MENU */ 
 
-
-.first-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
 
 .first-container .open {
     display: block;
